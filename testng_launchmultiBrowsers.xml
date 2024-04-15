@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test  name="Testchromebrowse">
+		<parameter name="browser" value="Firefox"></parameter>
+		<classes>
+			<class name="multipulebrowser_launch.Browser_launch" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Testfirefoxbrowse">
+	<parameter name="browser" value="Edge"></parameter>
+	<classes>
+		<class name="multipulebrowser_launch.Browser_launch" />
+		
+	</classes>
+</test>
+	<test  name="Testedgebrowse">
+	<parameter name="browser" value="Chrome"></parameter>
+	<classes>
+		<class name="multipulebrowser_launch.Browser_launch" />
+	</classes>
+</test> <!-- Test -->
+</suite> <!-- Suite -->
